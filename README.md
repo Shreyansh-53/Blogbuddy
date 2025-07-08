@@ -1,12 +1,27 @@
-# React + Vite
+# 📝 BlogBuddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BlogBuddy** is a simple and intuitive blogging platform where users can write, edit, and read blog posts easily. Whether you're a first-time writer or a regular blogger, BlogBuddy makes it easy to share your thoughts with the world.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✍️ Rich-text editor (powered by TinyMCE)
+- 🧑‍💻 User authentication (login/signup)
+- 📄 Create, update, delete blogs
+- 📅 Auto-generated timestamps for posts
+- 🔒 Secure access for user-specific content
+- 🌐 Responsive frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Editor:** TinyMCE
+- **Backend:** Appwrite
+- **Hosting:** Vercel
+
+---
+
+# Blogbuddy is hosted on Vercel -- [Visit Blogbuddy](https://blogbuddy-ten.vercel.app/)
