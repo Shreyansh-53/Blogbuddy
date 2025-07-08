@@ -12,8 +12,8 @@ function Footer(){
             active: true
         },
         {
-            name: 'Your Posts',
-            slug: '/your-posts',
+            name: 'My Posts',
+            slug: '/my-posts',
             active: authStatus
         },
         {
