@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.loader {
+  border: 6px solid rgb(172, 166, 156);
+  border-radius: 50%;
+  border-top: 6px solid rgb(6, 52, 6);
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 1.5s linear infinite; /* Safari */
+  animation: spin 1.5s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1200;
+  margin-top: 45vh;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
